@@ -1,0 +1,260 @@
+#home{
+    font-family:Georgia,serif;
+    background-image: url("./images/bg1.jpg");
+    min-height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.7s;
+}
+body{
+    margin: 0px;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+}
+.home{
+    color:white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left:10px;
+}
+
+.nav .nav-link{
+    text-decoration: none;
+    margin-left:15px;
+    font-size:15px;
+    color:white;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #F0885D;
+}
+.home1{
+    color:black;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left:10px;
+}
+
+.nav1 .nav-link1{
+    text-decoration: none;
+    margin-left:15px;
+    color:black;
+    cursor:pointer;
+}
+.nav-link1:hover{
+    color: #F0885D!important;
+}
+.nav1{
+    color: black!important;
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+}
+.nav1 a{
+    color: black!important;
+}
+.content{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:100px;
+    padding: 10px;
+}
+.nav-main-link{
+    margin-left: 30px;
+}
+.content p{
+    font-style: italic;
+    font-size:18px;
+}
+.content span{
+    font-weight: lighter;
+    font-family:'Ambroise-std';
+    font-size:70px;
+    margin-left:50px;
+    padding:5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content span:hover{
+    border-bottom:1px solid white;
+    
+}
+#eat-page{
+    display:none;
+    text-align:center;
+}
+#drink-page{
+    display:none;
+    text-align:center;
+}
+#visit-page{
+    display:none;
+    text-align:center;
+}
+
+#outer-div{
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px!important;
+}
+#inner-div{
+    flex:33.33%;
+    padding:10px;
+    text-align:center;
+}
+.eat-img{
+    background-image: url("./images/eat.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:400px;
+}
+.eat-main-img{
+    padding:80px;
+}
+.drink-img{
+    background-image: url("./images/drink.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:400px;
+}
+.drink-main-img{
+    padding:80px;
+}
+.visit-img{
+    background-image: url("./images/visit.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:400px;
+}
+.visit-main-img{
+    padding:80px;
+}
+.rbtn{
+    padding: 10px;
+    background:transparent;
+    border: 2px solid #333333;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom:70px;
+    margin-top:60px;
+    border-radius:3px;
+    width: 250px;
+    letter-spacing: 3px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+.footer-text{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.rbtn:hover{
+    background-color: #333333;
+    color: white;
+}
+.email:hover{
+    color: black;
+}
+.email{
+    color: gray;
+    cursor: pointer;
+}
+.footer{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+@media (min-width: 768px) and (max-width: 990px)  {
+    .content span{
+        font-size:50px;
+        margin-left:10px;
+    }
+    .content{
+        margin-top: 120px;
+    }
+    .content p{
+        font-size:15px;
+    }
+    .footer-text{
+        font-size: 25px;
+    }
+
+  }
+  @media (min-width: 990px) and (max-width: 1180px)  {
+    .footer-text{
+        font-size: 30px;
+    }
+
+  }
+  @media (min-width: 268px) and (max-width: 768px)  {
+    .footer{
+        margin-top:50px;
+    }
+    .footer-text{
+        margin-bottom: 50px;
+    }
+    #outer-div{
+        flex-direction: column;
+    }
+    .eat-main-img{
+        padding: 20px;
+    }
+    .eat-img{
+        height: 200px;
+    }
+    .drink-main-img{
+        padding: 20px;
+    }
+    .drink-img{
+        height: 200px;
+    }
+    .visit-main-img{
+        padding: 20px;
+    }
+    .visit-img{
+        height: 200px;
+    }
+    .content span{
+        font-size:40px;
+        margin-left:10px;
+    }
+    .content{
+        margin-top: 120px;
+    }
+    .content p{
+        font-size:15px;
+    }
+    .nav{
+        padding:20px;
+        display: block;
+        text-align: center;     
+    }
+    .nav1{
+        padding:20px;
+        display: block;
+        text-align: center;     
+    }
+    .nav-main-link{
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size:18px;
+        padding:10px;
+    }
+    .nav-link{
+        margin-left: 20px;
+    }
+  }
+
+
+
